@@ -57,7 +57,27 @@ int main()
 ## Task 4: Individual (at home)
 
 - What are the pros/cons of recursive over iterative Programming?
+  # Vastaus: 
+  + Se on helpompi kirjoittaa ja ymmärtää
+  - Voi hävitä suorituskyvyssä
+
 - Difference between recursion and induction.
+1.	Recursion is the process in which a function is called again and again until some base condition is met. 	Induction is the way of proving a mathematical statement. 
+2.	Recursion is the way of defining in a repetitive manner.	Induction is the way of proving.
+3.	Recursion starts from nth term till the base case. 	Induction starts from the initial till (n+1)th term. 
+4.	
+Recursion has two components:
+Base condition
+Recursive step.
+
+Induction has two steps:
+Base step
+Inductive step
+5.	Recursion: We backtrack at each step to replace the previous values with the answers using the function.
+Induction: We just prove that the statement is true for n=1. Then we assume that n = k is true. Then we prove for n=k+1.
+6.	Recursion: No assumptions are made. 	Induction: The assumption is made for n= k
+7.	Recursive function is always called to find successive terms. 	Induction: Here statements or theorems are proved and no terms are found. 
+8.	Recursive function can lead to infinity if no base condition is given. 	Induction: There is no concept of infinity. 
 
 > Refer to the [links](#links) section below.
 
